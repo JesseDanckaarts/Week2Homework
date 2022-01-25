@@ -44,6 +44,13 @@ h1{
     border: #000000 20px double;
 }
 
+img{
+    background: black;
+    border: dotted 20px #ffffff;
+    align-self: center;
+    width: 90%;
+}
+
 .blinkingText{
     animation: blinking 0.75s infinite;
     color: brown;
