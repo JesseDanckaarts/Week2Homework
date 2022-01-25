@@ -1,0 +1,65 @@
+body{
+    background-image: url(https://www.adamhammond.com/90s/pandamonium/images/panda.jpg);
+    display: flex;
+    margin: 8px 50px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+P{
+    color: black;
+    font-weight: normal;
+    font-size: 200%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline white;
+}
+
+.orange-hover:hover{
+    color: orange;
+}
+
+h1{
+    text-decoration: underline black;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main{
+    position: relative;
+    padding: 25px;
+    width: 800px;
+    background-color: #00e600;
+    background-image: url(https://www.adamhammond.com/90s/pandamonium/images/Bamboo-Stone.jpg);
+    margin: 50px auto;
+    text-align: left;
+    box-shadow: 15px 15px 15px #ffffff;
+    border-radius: 22px;
+    border: #000000 20px double;
+}
+
+.blinkingText{
+    animation: blinking 0.75s infinite;
+    color: brown;
+}
+
+@keyframes blinking{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    50.01%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
